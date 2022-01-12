@@ -1,17 +1,19 @@
-Download both Exam Server and Angular
+Download both Spring Boot Exam Portal and Angular Exam Portal
 
 Step 1 : Install MySQL 8 Server.
 Step 2 : Create a database name "exam" ( create database exam )
-Step 3 : Open the folder Exam Server in eclipse ( File > Open Project from File System )
+Step 3 : Just clone the Spring Boot Exam Portal and Angular Exam Portal
+Step 4 : Open the Angular Exam Portal in Visual studio code and open the visual studio terminal ( Ctrl + ~)
+Step 5 : Type "npm install"
+Step 6 : Then type ng serve and wait for sometime it will automatically do all the things and after completion
+Step 7 :  Open the folder Spring Boot Exam Portal folder in eclipse using this path ( File > Open Project from File System )
 			then run using Spring Boot App.
-Step 4 : Import the folder Angular in Visual Studio code
-			-- Install the below things ----
-				i . 	Install Node js
-				then open the terminal in Visual studio code.
-				ii. 	Install the angular client ( npm install -g @angular/cli )
-				iii. 	Install the angular Material ( ng add @angular/material )
-				iv.		Install the ngx-ui-loader for rich text writer ( npm i ngx-ui-loader )
-				
-		then type the commang " ng serve " to runt the project.
+      
+      for first time login as admin use ( username - ronny , password - robox ) 
+      to create normal user first signup.
+      
+      // access 
+      admin - can create , delete modify the category , quiz, category
+      user - can see the quiz and their question and give test and also print the result.
 		
 		open any browser and then type https://localhost:4200
