@@ -1,0 +1,17 @@
+Download both Exam Server and Angular
+
+Step 1 : Install MySQL 8 Server.
+Step 2 : Create a database name "exam" ( create database exam )
+Step 3 : Open the folder Exam Server in eclipse ( File > Open Project from File System )
+			then run using Spring Boot App.
+Step 4 : Import the folder Angular in Visual Studio code
+			-- Install the below things ----
+				i . 	Install Node js
+				then open the terminal in Visual studio code.
+				ii. 	Install the angular client ( npm install -g @angular/cli )
+				iii. 	Install the angular Material ( ng add @angular/material )
+				iv.		Install the ngx-ui-loader for rich text writer ( npm i ngx-ui-loader )
+				
+		then type the commang " ng serve " to runt the project.
+		
+		open any browser and then type https://localhost:4200
